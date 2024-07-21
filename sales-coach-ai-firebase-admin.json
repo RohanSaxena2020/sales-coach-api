@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sales-coach-ai",
+  "private_key_id": "005936c7ee23c7dd538e31582967eb9014bff43e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDmL8CYx60kUzBq\nQJQmoiAHr/KT+B3GGZltL5EqWqp64KRpkSBSM0505YGaLDjaUUo/sVcZgm8WbY/s\nbykPNi0i+hnW2Kfb0KgOWwA+IbiYz5qujeKfW8WMAWlFTOL+1WMsqchK4gHUgF6n\neEr/t9RnB8/DKGpeuo2sVvkr6bfy4+hMVHAO7YPRSI5j4J+bnAdDZICorfpQf86G\nbHn1yUmVuk2neo4pDc55lZrbEp8BHEZ57oYzAtxoWMqMxnVtEDlOp0vKMmQvdEqw\n0KfkgGiCuZfUzYPto685U30kSpxu5LVxQqn/UzBlLWc58DsQUdbqd58G19PkiBxF\nuAqXKkhjAgMBAAECggEAFmGMkZj8mecSx99OkwZkJIs0LrSgZHtnDRQ5F6FS087A\nKFmJhySLm4HDMl6GtUd+d3yX55g55+La7GtkgSD3OOA7dJstOwoUhQzOabwf9Y+z\nTlySV9n1oRF0DwkU8HUxXDgyjCwMbyvUyDtsg2T4MdUIcO/JjpCx/LtEz+28yntf\nhBXDxkUOUz/o60cnfUQ1nk8na9aeantkZiO2WIDJoGGGrMKIpuuIL5FnJ8kx7NFU\nxv6uxFbtYPZMq8DRgpSfG1A0uaQMAe/8sh2GiTmumqzOkK8tmwrRDhNR+rmhDmGf\nq+EvDr1XDPnuedsxXtI7khR/bO/doxP4Np0RzWyDtQKBgQD8ZPLoN8xIngt9reEO\nEoZgAa6fviyPD6JBrdp18LXKWxMjSTBaBc0JPig/s/DIcOX5xAc6XESmpURDhp5U\n+3DO1CB8lRO/iNsJ34HjVEHhn30OEaMPKjGbwuVgdCBBPI6SSg69H1kPq8/H+ew9\n9UUCarCshnL5ABVWdtMJBcF2NwKBgQDpeZXpJGLK5kf3R4xiL6Jgah2DbgXHGiUL\nvkWEVf7++KPJ4JMk94dhREg5xEuEgz0gIxK9yyURj/bOYrg/6VFowPQmabKNx1I4\nDHguj6IDV111Vy+/XaHybhC+apXOPIwJSYSSZdfk3UvHm35KoQB7DsGXJZgWlmsF\nSZ+nkEIpNQKBgQCDtcptFHEulAs7EroXNeOZxkbyZbOrFGWAENGoKm0zpENgbpkk\n4VIWOLGYTLaiYwggRwPemLfanvP4qQ+HGY/M3zX0zXb4xNpJVLHbh+S5cRk5dkq5\nZzNsLVC1/OO4J3nfLXZziyBW5ToRCYMW8h+JG1QHNEJbXofED04hrzc+EQKBgDpD\nuHCVPv5Jl54TQepi3s/Wy4S4GUMFuEcE9c4/s8InhKBlpfLsvuE8LBYWcY4hPkjd\n19h7cMXAOqRoqHhynnlY5dUMPZ36Jv+LxRZBi/nvfIhC+Mx17mtUomMSsE3meD/9\nE9OBDO61dyraGBtBsKAFH7S7kgfZA94u8GPdsVUdAoGBAInDhFGOT20S5zP541uT\n2JiA7g6k2OKlk8k3Ypy7ImytMpMwn6ZTtM8Y22yMtciMlpFVtMlU1mrExkwOdULv\nKxUHT6UQkciBU7vZKhgXd2i+yz0F6zn3+vOCxD1FRhydCuXHr/zjx1fZW4uv3/wn\n0OBBiJK2gOxUPye2yFWze/nM\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-e333v@sales-coach-ai.iam.gserviceaccount.com",
+  "client_id": "117855984934486475088",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e333v%40sales-coach-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
