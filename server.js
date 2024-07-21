@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const serviceAccount = require('./sales-coach-ai-firebase-admin.json'); // this is my auth - not included in github
+const serviceAccount = require('./sales-coach-ai-firebase-admin.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
@@ -45,6 +45,7 @@ app.post('/submit', async (req, res) => {
     const userId = req.user.uid;
 
     try {
+        // Save to users collection
         const userDocRef = db.collection("users").doc(userId);
         const userDoc = await userDocRef.get();
         
@@ -60,6 +61,16 @@ app.post('/submit', async (req, res) => {
                 submissions: admin.firestore.FieldValue.arrayUnion(transcript)
             });
         }
+
+        // Save to submissions collection
+        await db.collection("submissions").add({
+            userId,
+            firstName,
+            email,
+            phoneNumber,
+            transcript,
+            timestamp: admin.firestore.FieldValue.serverTimestamp()
+        });
         
         res.status(200).send({ message: "Submission saved successfully" });
     } catch (error) {
@@ -71,4 +82,5 @@ app.post('/submit', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
 
