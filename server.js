@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const serviceAccount = require('./sales-coach-ai-firebase-admin.json');
+const serviceAccount = require('./sales-coach-ai-firebase-admin.json'); // this is my auth - not included in github
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
